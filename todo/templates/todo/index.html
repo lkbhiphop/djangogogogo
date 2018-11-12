@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    todos의 인덱스입니다.
+    {%for todo in todos%}
+        <h5>{{todo.title}}</h5>
+        <h5>{{todo.deadline}}</h5>
+    {%endfor%}
+</body>
+</html>
